@@ -1,24 +1,15 @@
-# README
+# Planning our application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Answer Questions
+		
+		- What are we building?
 
-Things you may want to cover:
+		- Who are we building it for?
 
-* Ruby version
+		- What features do we need to have?
 
-* System dependencies
+2. User Stories
 
-* Configuration
+3. Model our Data
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4. Think through the pages we have.
