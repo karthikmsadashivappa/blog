@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blog</title>
+  <title>Blog</title>
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+		<script src="https://use.fontawesome.com/159be596f7.js"></script>
+	</head>
+    
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +14,16 @@
   </head>
 
   <body>
+
+<header id="main_navigation" class="clearfix">
+		<a href="index.html" class="name">Karthik M S</a>
+		<nav>
+		<%= link_to "Articles", posts_path %>
+		<a href="#">Projects</a>
+		<a href="contact.html">Contact</a>
+		</nav>
+		</header>
+
     <%= yield %>
   </body>
 </html>
