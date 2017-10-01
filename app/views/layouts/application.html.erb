@@ -16,7 +16,8 @@
   <body>
 
 <header id="main_navigation" class="clearfix">
-		<a href="index.html" class="name">Karthik M S</a>
+<%= link_to "Karthik M S", root_path, class: "name" %>
+		
 		<nav>
 		<%= link_to "Articles", posts_path %>
 		<a href="#">Projects</a>
@@ -25,5 +26,21 @@
 		</header>
 
     <%= yield %>
+
+	<footer id="main_footer">
+
+<p class="copyright">&copy; 2017 Karthik M S</p>
+<nav>
+	<a href="https://www.instagram.com/karthik_m_sadashivappa/"><i class="fa fa-instagram fa-lg"></i>
+</a>
+	<a href="https://github.com/karthikmsadashivappa"><i class="fa fa-github fa-lg"></i>
+</a>
+	<a href="https://www.linkedin.com/in/karthik-m-sadashivappa-4a4b8b107/"><i class="fa fa-linkedin-square fa-lg"></i>
+</a>
+</nav>
+
+
+</footer>
+
   </body>
 </html>

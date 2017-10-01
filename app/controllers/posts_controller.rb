@@ -31,10 +31,9 @@ def update
 	end
 	end
 
-def destory 
-	@post.destory
-		redirect_to posts_path
-
+def destroy
+	@post.destroy
+	redirect_to posts_path
 end
 
 	
