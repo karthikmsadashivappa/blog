@@ -20,6 +20,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'pygments.rb', '~> 1.2.0'
 gem 'redcarpet', '~> 3.4.0'
 gem 'friendly_id', '~> 5.2'
+gem 'will_paginate', '~> 3.1'
 
 
 group :development, :test do
