@@ -21,6 +21,7 @@ gem 'pygments.rb', '~> 1.2.0'
 gem 'redcarpet', '~> 3.4.0'
 gem 'friendly_id', '~> 5.2'
 gem 'will_paginate', '~> 3.1'
+gem 'mail_form', '~> 1.7'
 
 
 group :development, :test do
