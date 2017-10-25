@@ -4,7 +4,10 @@ module ApplicationHelper
 			Pygments.highlight(code, lexer: language)
 	end
 end
+
+
 	def markdown (content)
+		
 		renderer = HTMLwithPygments.new(hard_wrap: true, filter_html: true)
 		options = {
 			autolink: true,
@@ -17,4 +20,8 @@ end
 		}
 		Redcarpet::Markdown.new(renderer, options).render(content).html_safe
 	end
+
+
 end
+
+
